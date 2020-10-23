@@ -331,11 +331,16 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+@media all and (max-width: 991px) {
+  section {
+    padding: 60px 0;
+  }
+}
+
 #hero {
   width: 100%;
   position: relative;
   overflow: hidden;
-  padding: 140px 0 100px 0;
   margin-bottom: -75px;
 }
 
@@ -347,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 250%;
   height: 200%;
   z-index: -1;
-  background-color: #e8ecf5;
+  background-color: #F7B9C4;
   transform: skewY(135deg);
 }
 
@@ -375,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   transition: 0.5s;
   color: #fff;
-  background: #47536e;
+  background: #47526E;;
   position: relative;
 }
 
@@ -434,7 +439,6 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
   overflow: hidden;
 }
 
